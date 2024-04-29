@@ -1,0 +1,2 @@
+# AppStorePrivacyInfo
+解决部分已经不在维护的SDK的隐私清单问题
