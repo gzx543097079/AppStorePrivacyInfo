@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source                = { git: "#{s.homepage}.git", tag: "v#{s.version}" }
   s.source_files          = "#{s.name}/#{s.name}", "#{s.name}/#{s.name}/include"
   s.resource_bundles = {
-    "#{s.name}" => 'PureLayout/Resources/PrivacyInfo.xcprivacy'
+    "PureLayout" => 'PureLayout/Resources/PrivacyInfo.xcprivacy'
   }
   s.summary               = 'The ultimate API for iOS & OS X Auto Layout — impressively simple, immensely powerful. Objective-C and Swift compatible.'
   s.description  = <<-DESC

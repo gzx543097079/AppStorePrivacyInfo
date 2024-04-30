@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
   s.watchos.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.alamofire.AFNetworking-watchOS' }
   s.tvos.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.alamofire.AFNetworking' }
 
-  s.source_files = 'AFNetworking/AFNetworking.h'
+  s.source_files = 'AFNetworking/AFNetworking/AFNetworking.h'
   s.resource_bundles = {
-    "#{s.name}" => '#{s.name}/Resources/PrivacyInfo.xcprivacy'
+    "AFNetworking" => 'AFNetworking/Resources/PrivacyInfo.xcprivacy'
   }
 
   s.subspec 'Serialization' do |ss|
-    ss.source_files = 'AFNetworking/AFURL{Request,Response}Serialization.{h,m}'
+    ss.source_files = 'AFNetworking/AFNetworking/AFURL{Request,Response}Serialization.{h,m}'
   end
 
   s.subspec 'Security' do |ss|
-    ss.source_files = 'AFNetworking/AFSecurityPolicy.{h,m}'
+    ss.source_files = 'AFNetworking/AFNetworking/AFSecurityPolicy.{h,m}'
   end
 
   s.subspec 'Reachability' do |ss|
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     ss.osx.deployment_target = '10.10'
     ss.tvos.deployment_target = '9.0'
 
-    ss.source_files = 'AFNetworking/AFNetworkReachabilityManager.{h,m}'
+    ss.source_files = 'AFNetworking/AFNetworking/AFNetworkReachabilityManager.{h,m}'
   end
 
   s.subspec 'NSURLSession' do |ss|
@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
     ss.tvos.dependency 'AFNetworking/Reachability'
     ss.dependency 'AFNetworking/Security'
 
-    ss.source_files = 'AFNetworking/AF{URL,HTTP}SessionManager.{h,m}', 'AFNetworking/AFCompatibilityMacros.h'
+    ss.source_files = 'AFNetworking/AFNetworking/AF{URL,HTTP}SessionManager.{h,m}', 'AFNetworking/AFCompatibilityMacros.h'
   end
 
   s.subspec 'UIKit' do |ss|
@@ -54,6 +54,6 @@ Pod::Spec.new do |s|
     ss.tvos.deployment_target = '9.0'
     ss.dependency 'AFNetworking/NSURLSession'
 
-    ss.source_files = 'UIKit+AFNetworking'
+    ss.source_files = 'AFNetworking/UIKit+AFNetworking'
   end
 end
