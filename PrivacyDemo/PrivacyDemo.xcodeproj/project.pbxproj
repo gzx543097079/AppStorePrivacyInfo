@@ -173,6 +173,7 @@
 				A304CAE62BDF981300BD821A /* Frameworks */,
 				A304CAE72BDF981300BD821A /* Resources */,
 				C67D8B34307575477EEB711A /* [CP] Copy Pods Resources */,
+				F8F7E4E89026768908081EC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -304,6 +305,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrivacyDemo/Pods-PrivacyDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8F7E4E89026768908081EC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrivacyDemo/Pods-PrivacyDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrivacyDemo/Pods-PrivacyDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrivacyDemo/Pods-PrivacyDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FBA2AFCD4CBF97E241BA6D11 /* [CP] Check Pods Manifest.lock */ = {
