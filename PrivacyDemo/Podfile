@@ -7,8 +7,8 @@ target 'PrivacyDemo' do
 
   # Pods for PrivacyDemo
 #  pod 'PureLayout', :path => '../PrivacyPods/PureLayout'
-  pod 'AFNetworking', :path => '../'
-#  pod 'AFNetworking', :git => 'https://github.com/gzx543097079/AppStorePrivacyInfo.git'
+#  pod 'AFNetworking', :path => '../'
+  pod 'AFNetworking', :git => 'https://github.com/gzx543097079/AppStorePrivacyInfo.git'
   pod 'PureLayout', :git => 'https://github.com/gzx543097079/AppStorePrivacyInfo.git'
   
   
