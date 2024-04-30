@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'PureLayout'
-  s.version               = '3.1.9'
+  s.version               = '3.1.10'
   s.homepage              = "https://github.com/#{s.name}/#{s.name}"
   s.license               = { type: 'MIT', file: 'LICENSE' }
   s.author                = 'Tyler Fox'
