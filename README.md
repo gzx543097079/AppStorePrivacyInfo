@@ -16,6 +16,8 @@ pod 'PureLayout', :git => 'https://github.com/gzx543097079/AppStorePrivacyInfo.g
 ```
 
 
+#### 另外在Demo中提供了本地集成的方式
+
 <br>
 <br>
 
