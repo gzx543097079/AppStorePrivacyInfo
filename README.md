@@ -6,7 +6,7 @@
 #### AFNetworking
 
 ```
-pod 'AFNetworking', :git => 'https://github.com/gzx543097079/AppStorePrivacyInfo.git', :tag => 'AFNetworking-4.0.1'
+pod 'AFNetworking', :git => 'https://github.com/gzx543097079/AppStorePrivacyInfo.git', :tag => 'AFNetworking-4.0.1.1'
 ```
 
 #### PureLayout
